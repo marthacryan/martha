@@ -12,7 +12,9 @@ A JupyterLab extension.
 ## Install
 
 ```bash
-jupyter labextension install martha
+jupyter labextension install .
+pip install -e .
+jupyter serverextension install .
 ```
 
 ## Contributing
