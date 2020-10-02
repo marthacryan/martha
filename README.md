@@ -10,11 +10,15 @@ A JupyterLab extension.
 * JupyterLab >= 1.0
 
 ## Install
-
+Lab extension
 ```bash
 jupyter labextension install .
+```
+Server extension
+```bash
+pip install jupyterlab===2.2.8 jupyter_server
 pip install -e .
-jupyter serverextension install .
+jupyter serverextension enable martha
 ```
 
 ## Contributing
